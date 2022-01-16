@@ -15,7 +15,9 @@ export const Noticias = () => {
         </Link>
       </article>
       <aside className="container-anunc">
-        <div style={{width: "100%", height: "200px", backgroundColor: "blue"}}></div>
+        <div style={{width: "100%", height: "200px", backgroundColor: "blue"}}>
+          teste
+        </div>
       </aside>
 
       <section className="noticias-recentes">
@@ -50,6 +52,7 @@ export const Noticias = () => {
         </article>
 
       </section>
+
     </React.Fragment>
   );
 }
