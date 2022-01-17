@@ -56,22 +56,3 @@ export const Noticias = () => {
     </React.Fragment>
   );
 }
-
-// const MenuMobile = () => {
-//   const [opButton, setButton] = useState(false);
-
-//   const JsxButton = () => (
-//     opButton ?
-
-//     (
-//       <nav>ola</nav>
-//     ) :
-
-//     (
-//       <nav>ola</nav>
-//     )
-
-//   );
-
-//   return "";
-// }

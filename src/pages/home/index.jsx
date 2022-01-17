@@ -1,8 +1,10 @@
 import React from "react";
 import { BrowserRouter,  } from "react-router-dom";
 import { RowHeader } from "../../components/header";
-import { GlobalStyle, Header, MainGrid, ContainerMaster } from "../../styles";
+import { UltimasNoticias } from "../../components/ultimas-noticias";
+import { GlobalStyle, Header, MainGrid, ContainerMaster, SectionGrid } from "../../styles";
 import { Noticias } from "../noticias/flamengo-teste";
+
 
 export const Home = () => {
     return(
@@ -15,6 +17,9 @@ export const Home = () => {
                 <MainGrid>
                   <Noticias />
                 </MainGrid>
+                <SectionGrid>
+                  <UltimasNoticias />
+                </SectionGrid>
               </ContainerMaster>
           </BrowserRouter>
     );
