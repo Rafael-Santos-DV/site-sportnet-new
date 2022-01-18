@@ -1,4 +1,6 @@
 import React from "react";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import treinoflamengoct from "../../assets/flamengo-treinamento/flamengo-treinamento.jpeg";
 
@@ -64,8 +66,24 @@ export const UltimasNoticias = () => {
         </article>
       </main>
       <aside className="column-side">
-        <div className="box-anunc">
+        <div className="box-anunc-redes-sociais">
+          <div className="container-redes-anunc">
+            anuncio
+          </div>
+          <h3>Siga a <em>SportNet</em></h3>
+          <div className="container-redes-sociais">
+            <Link to="" className="link-target-sociais">
+              <BsFacebook title="Facebook"/>
+            </Link>
+            <Link to="" className="link-target-sociais">
+              <AiOutlineInstagram title="Instagram"/>
+            </Link>
+            <Link to="" className="link-target-sociais">
+              <BsWhatsapp title="Whatsapp"/>
+            </Link>
+          </div>
         </div>
+
       </aside>
 
     </React.Fragment>

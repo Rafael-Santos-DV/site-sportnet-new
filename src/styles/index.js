@@ -401,14 +401,58 @@ export const SectionGrid = styled.section`
     display: flex;
     flex-direction: column;
 
-    > div.box-anunc {
+    > div.box-anunc-redes-sociais {
       position: sticky;
-      border: 1px solid blue;
       top: 0;
-      width: 60%;
-      height: 300px;
+      width: 80%;
+      height: 500px;
       margin: 0 auto;
 
+      > h3 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        padding: 15px;
+        color: #03E338;
+      }
+
+        > div.container-redes-anunc {
+          width: 100%;
+          border: 1px solid red;
+          height: 300px;
+
+        }
+        > div.container-redes-sociais {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+
+
+          > .link-target-sociais{
+            width: 32%;
+            max-width: 100px;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+
+            &:nth-of-type(1) {
+              background-color: #3b5998;
+            }
+            &:nth-of-type(2) {
+              background-color: #833AB4;
+            }
+            &:nth-of-type(3) {
+              background-color: #075e54;
+            }
+          }
+
+        }
 
     }
     @media only screen and (max-width: 1000px) {
@@ -416,7 +460,7 @@ export const SectionGrid = styled.section`
         justify-content: center;
         align-items: center;
 
-        > div.box-anunc {
+        > div.box-anunc-redes-socias {
           position: static;
           margin: 0 auto;
         }
