@@ -11,13 +11,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html, body {
-    background-color: #fff;
+    background-color: #f2f5f3;
   }
 `;
 
 export const Header = styled.header`
   width: 100%;
-  background-color: #000000;;
+  background-color: #000000;
 
   > div.container-header {
     width: 100%;
@@ -112,6 +112,7 @@ export const MainGrid = styled.main`
     box-shadow: 1px 1px 5px #eee,
       -1px -1px 5px #eee;
     overflow: hidden;
+    background-color: #fff;
 
     > .router-notic {
       color: #000000;
@@ -171,6 +172,7 @@ export const MainGrid = styled.main`
       box-shadow: 1px 1px 5px #eee,
       -1px -1px 5px #eee;
       overflow: hidden;
+      background-color: #fff;
 
       > .router-notic {
         color: #000000;
@@ -286,6 +288,7 @@ export const SectionGrid = styled.section`
   grid-template-rows: auto;
   max-width: 1110px;
   margin: 0 auto;
+  padding-bottom: 20px;
 
   > main.content-main {
     display: flex;
@@ -317,7 +320,7 @@ export const SectionGrid = styled.section`
         width: 50%;
         max-width: 325px;
         height: 300px;
-        background-color: blue;
+        border: 1px solid blue;
 
       }
 
@@ -327,6 +330,7 @@ export const SectionGrid = styled.section`
         box-shadow: 1px 1px 5px #eee,
         -1px -1px 5px #eee;
         overflow: hidden;
+        background-color: #fff;
 
         > .router-notic {
           color: #000000;
@@ -363,6 +367,7 @@ export const SectionGrid = styled.section`
 
           &:hover h1 {
             color: #03E338;
+
           }
         }
 
@@ -439,7 +444,9 @@ export const SectionGrid = styled.section`
             justify-content: center;
             padding: 20px;
             border-radius: 10px;
-            color: white;
+            color: #fff;
+            transition: 200ms;
+            position: relative;
 
             &:nth-of-type(1) {
               background-color: #3b5998;
@@ -449,6 +456,14 @@ export const SectionGrid = styled.section`
             }
             &:nth-of-type(3) {
               background-color: #075e54;
+            }
+            &:hover::after {
+              content: "";
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              background-color: rgba(0, 0, 0,.3);
+              border-radius: 10px;
             }
           }
 
@@ -467,4 +482,52 @@ export const SectionGrid = styled.section`
       }
   }
 
+`;
+
+
+export const Footer = styled.footer`
+  width: 100%;
+  background-color: #000000;
+  color:white;
+
+  > div.container-footer {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+
+    & .links {
+      color: #fff;
+    }
+
+    > div.box-img {
+      max-width: 230px;
+
+      > p {
+        padding: 10px 0;
+      }
+      > img {
+        width: 100%;
+      }
+    }
+
+    > div.container-sportnet {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      > h4 {
+        font-size: 20px;
+      }
+
+    }
+    @media only screen and (max-width: 468px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
 `;

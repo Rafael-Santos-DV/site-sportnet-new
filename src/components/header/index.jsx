@@ -13,40 +13,40 @@ export const RowHeader = () => {
       <nav className="navigation-links">
         <ul className="list-menu">
           <li>
-            <Link title="Notícias" className="links-menu" to="">
+            <Link title="Notícias" className="links-menu" to="/">
               Notícias
             </Link>
           </li>
           <li>
-            <Link title="Sobre" className="links-menu" to="">
+            <Link title="Sobre" className="links-menu" to="sobre">
                 Sobre
             </Link>
           </li>
           <li>
-            <Link title="Brasileirão" className="links-menu" to="">
+            <Link title="Brasileirão" className="links-menu" to="brasileirao">
                 Brasileirão
             </Link>
           </li>
           <li>
-            <Link title="Facebook" className="links-menu" to="">
+            <a title="Facebook" target="_blank" className="links-menu" href="https://www" rel="noreferrer">
               <span className="icons">
                 <BsFacebook />
               </span>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link title="Instagram" className="links-menu" to="">
+            <a title="Instagram" target="_blank" className="links-menu" href="https://www" rel="noreferrer">
               <span className="icons instagram">
                 <AiOutlineInstagram />
               </span>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link title="Whatsapp" className="links-menu" to="">
+            <a title="Whatsapp" target="_blank" className="links-menu" href="https://www" rel="noreferrer">
               <span className="icons">
                 <BsWhatsapp />
               </span>
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
