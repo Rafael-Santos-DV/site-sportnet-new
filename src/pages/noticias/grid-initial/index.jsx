@@ -17,8 +17,6 @@ export const Noticias = () => {
       </article>
       <aside className="container-anunc">
         <div >
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7901381333117251"
-            crossorigin="anonymous"></script>
         </div>
       </aside>
 

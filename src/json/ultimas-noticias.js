@@ -1,9 +1,12 @@
+import { pageNoticiaVarmeiras } from "../pages/noticias/noticateste";
 import { pageNameNew } from "../pages/noticias/noticianame";
-import { pageFlamengo } from "../pages/noticias/page2";
 
 export const ultimasNoticias = [
   {
-    ...pageFlamengo
+    ...pageNameNew
+  },
+  {
+    ...pageNoticiaVarmeiras
   },
   {
     ...pageNameNew
@@ -24,12 +27,9 @@ export const ultimasNoticias = [
     ...pageNameNew
   },
   {
-    ...pageFlamengo
+    ...pageNameNew
   },
   {
-    ...pageFlamengo
-  },
-  {
-    ...pageFlamengo
+    ...pageNameNew
   },
 ];

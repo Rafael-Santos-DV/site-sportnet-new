@@ -2,12 +2,11 @@ import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import thumbnoticetwo from "../../../assets/flamengo-treinamento/flamengo-treinamento.jpeg";
+import thumbpalmeiras from "../../../assets/image-arrascaeta/arrascaeta-image.jpg";
 import { three_notice_static as noticesThree } from "../../../json/three-noticias";
 import { Div } from "../../../styles/article";
 
 
-// Component com os 3 artigos relacionados
 export const ThreeNotices = () => {
   return(
     noticesThree && noticesThree.map((item, i) => (
@@ -20,7 +19,7 @@ export const ThreeNotices = () => {
 }
 
 
-export const NameNoticia = () => {
+export const NoticaVar = () => {
   return(
     <Div>
       <section className="container-artigo">
@@ -28,11 +27,11 @@ export const NameNoticia = () => {
         <article>
           <h1>SE QUEDA! Flamengo anuncia renovação contratual com Arrascaeta – saiba os detalhes</h1>
           <div className="escritor-artigo">
-            <img src={thumbnoticetwo} alt="escritor Lorem ipsum" />
+            <img src={thumbpalmeiras} alt="escritor Lorem ipsum" />
             <span>Por Antonio Mota <br/>9:53 AM GMT-3</span>
           </div>
           <div className="box-thumb">
-            <img src={thumbnoticetwo} alt=""/>
+            <img src={thumbpalmeiras} alt=""/>
             <strong>Eurasia Sport Images/GettyImages</strong>
           </div>
 
@@ -63,15 +62,15 @@ export const NameNoticia = () => {
         <main className="content-principal">
           <article className="article-texto">
             <p>Agora é oficial. <strong>O Flamengo anunciou, no início da manhã desta terça-feira (18), a renovação de contrato do meio-campista Giorgian de Arrascaeta até o final de 2026.</strong> Em redes sociais, o Rubro-Negro Carioca oficializou o acordo com o uruguaio e colocou um ponto final nas negociações que se arrastavam há quase um ano.</p>
-            <p>Flamengo e Arrascaeta iniciaram as conversas acerca da renovação do vínculo no começo do ano passado. Contudo, o negócio se arrastou por um imbróglio relacionado à uma exigência do empresário do camisa 14, que exigia que o clube comprasse os 25% dos direitos econômicos do meia pertencentes ao Defensor Sporting, do Uruguai. Por isso, o acordo demorou a sair.   </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, recusandae vitae, ad, eos id quae doloribus debitis voluptate praesentium eum ducimus repellendus! Quam enim sint expedita placeat debitis quia quaerat.</p>
           </article>
           <article className="article-img-post" style={{height: "400px", border: "1px solid red"}}>
             post / img
           </article>
           <article className="article-texto">
-            <p>Nesta direção, para fechar o novo contrato, o Flamengo alinhou com o agente de “Arrasca” um trato para comprar os direitos econômicos do meia que pertencem ao clube do Uruguai, mas com cláusulas de performance. O Fla vai pagar à vista por uma fração do percentual desejado, que, conforme o “ge”, poderá chegar aos 12,5% caso o atleta alcance metas nos próximos cinco anos.  </p>
-            <p>Em outras palavras, o Flamengo vai adquirir de imediato apenas uma fatia do percentual que pertence ao Defensor. O restante o Fla vai comprar apenas caso o camisa 14 bata metas individuais e coletivas. Vale notar que o reajuste salarial e luvas estavam acertados desde o ano passado.</p>
-            <p>Formado no Defensor e com passagem vitoriosa pelo Cruzeiro, Arrascaeta chegou ao Flamengo no início de 2019 e, desde então, disputou 135 partidas pela equipe, com 38 gols e 46 assistências. No clube, o meia ganhou nove títulos, incluindo uma Conmebol Libertadores e dois Campeonatos Brasileiros.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumque modi rem ab totam delectus. Omnis eligendi voluptas molestias nihil provident, doloremque quo ad doloribus velit maxime quibusdam unde animi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus ipsa quis nemo vel asperiores iste veritatis deleniti modi, corporis omnis voluptatibus commodi at excepturi voluptate voluptatem qui rem! Repudiandae.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia corporis sit veniam, corrupti labore distinctio ipsum minima omnis autem, reiciendis magni sequi odit culpa velit illo vel voluptatibus! Perspiciatis, nihil.</p>
           </article>
           <section className="artigos-relacionados">
             <h3>Artigos relacionados</h3>
@@ -88,10 +87,10 @@ export const NameNoticia = () => {
   );
 }
 
-export const pageNameNew = {
-  rota: "noticia-arrascaeta",
-  thumb: thumbnoticetwo,
+export const pageNoticiaVarmeiras = {
+  rota: "noticia-palmeiras",
+  thumb: thumbpalmeiras,
   data: "02/01/2022",
-  title: "Nesta direção, para fechar o novo contrato, o Flamengo alinhou com o agente de “Arrasca”",
-  Component: NameNoticia,
+  title: "isso aqui é um teste de noticia fakLorem ipsum dolor, sit amet consectetur adipisicing elit. Quia corporis sit veniam",
+  Component: NoticaVar,
 }

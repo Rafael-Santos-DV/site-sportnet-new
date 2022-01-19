@@ -10,8 +10,8 @@ export const ContainerFooter = () => {
       </div>
       <div className="container-sportnet">
         <h4>SportNet</h4>
-        <Link className="links" to="">Expediente</Link>
-        <Link className="links" to="">Contato</Link>
+        <Link className="links" to="expediente">Expediente</Link>
+        <Link className="links" to="contato">Contato</Link>
       </div>
     </div>
   );

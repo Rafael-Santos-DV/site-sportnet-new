@@ -16,7 +16,7 @@ export const Div = styled.div`
 
       h1 {
         width: 95%;
-        font-size: clamp(4vw, 50px, 5vw);
+        font-size: clamp(15px, 35px, 55px);
         line-height: 1.4;
         padding: 20px 0;
 

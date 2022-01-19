@@ -17,16 +17,18 @@ export const RowHeader = () => {
               Notícias
             </Link>
           </li>
+
           <li>
-            <Link title="Sobre" className="links-menu" to="sobre">
-                Sobre
+            <Link title="Expediente" className="links-menu" to="expediente">
+              Expediente
             </Link>
           </li>
           <li>
-            <Link title="Brasileirão" className="links-menu" to="brasileirao">
-                Brasileirão
+            <Link title="Contato" className="links-menu" to="contato">
+              Contato
             </Link>
           </li>
+
           <li>
             <a title="Facebook" target="_blank" className="links-menu" href="https://www" rel="noreferrer">
               <span className="icons">
