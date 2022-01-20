@@ -16,7 +16,7 @@ export const Expediente = () => {
         <div className="box-one">
           <h4>Redação</h4>
           <div className="box-img-infos">
-            <img src={perfilLeo} alt="perfil Léorion Lucena" />
+            <img className="perfil-leo" src={perfilLeo} alt="perfil Léorion Lucena" />
             <strong>Léorion Lucena</strong>
             <span>Escritor /  Cronista / Desenvolvedor</span>
             <div className="redes-sociais">
@@ -32,7 +32,7 @@ export const Expediente = () => {
         <div className="box-one">
           <h4>Desenvolvedor</h4>
           <div className="box-img-infos">
-            <img src={perfilRaf} alt="perfil Rafael Santos" />
+            <img className="perfil-rafa" src={perfilRaf} alt="perfil Rafael Santos" />
             <strong>Rafael Santos</strong>
             <span>Devenvolvedor / ReactJS / NodeJS</span>
             <div className="redes-sociais">

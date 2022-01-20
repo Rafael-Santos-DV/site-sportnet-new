@@ -80,6 +80,12 @@ export const Div = styled.div`
           width: 200px;
           height: 200px;
           border-radius: 50%;
+          object-fit: cover;
+
+          &.perfil-leo {
+            object-position: 0% 20%;
+
+          }
 
           @media only screen and (max-width: 650px) {
             width: 150px;
