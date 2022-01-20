@@ -1,5 +1,6 @@
 import { Div } from "../../styles/style-expediente";
-import imgteste from "../../assets/image-arrascaeta/arrascaeta-image.jpg";
+import perfilLeo from "../../assets/dupla-leo-raf/perfil-leorion.jpg";
+import perfilRaf from "../../assets/dupla-leo-raf/perfil-rafael.jpg";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 
 export const Expediente = () => {
@@ -15,9 +16,9 @@ export const Expediente = () => {
         <div className="box-one">
           <h4>Redação</h4>
           <div className="box-img-infos">
-            <img src={imgteste} alt="perfil Léorion Lucena" />
+            <img src={perfilLeo} alt="perfil Léorion Lucena" />
             <strong>Léorion Lucena</strong>
-            <span>Escritor /  Jornalista / Desenvolvedor / Investidor</span>
+            <span>Escritor /  Cronista / Desenvolvedor</span>
             <div className="redes-sociais">
               <a style={{color: "#1778F2"}} href="www" className="links-icons" rel="noreferrer" title="facebook" target="_blank">
                 <BsFacebook />
@@ -31,7 +32,7 @@ export const Expediente = () => {
         <div className="box-one">
           <h4>Desenvolvedor</h4>
           <div className="box-img-infos">
-            <img src={imgteste} alt="perfil Rafael Santos" />
+            <img src={perfilRaf} alt="perfil Rafael Santos" />
             <strong>Rafael Santos</strong>
             <span>Devenvolvedor / ReactJS / NodeJS</span>
             <div className="redes-sociais">
