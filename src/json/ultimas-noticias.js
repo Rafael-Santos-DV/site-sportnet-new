@@ -1,35 +1,15 @@
-import { pageNoticiaVarmeiras } from "../pages/noticias/noticateste";
-import { pageNameNew } from "../pages/noticias/noticianame";
+import { page_NoticiaCazares } from "../pages/noticias/cazares-atletico-mg";
+import { page_contrato_perto_do_fim } from "../pages/noticias/contrato-perto-do-fim";
+import { page_RelacionadosPalmeiras } from "../pages/noticias/palmeiras-relacionados-mundial";
 
 export const ultimasNoticias = [
   {
-    ...pageNameNew
+    ...page_RelacionadosPalmeiras
   },
   {
-    ...pageNoticiaVarmeiras
+    ...page_contrato_perto_do_fim
   },
   {
-    ...pageNameNew
-  },
-  {
-    ...pageNameNew
-  },
-  {
-    ...pageNameNew
-  },
-  {
-    ...pageNameNew
-  },
-  {
-    ...pageNameNew
-  },
-  {
-    ...pageNameNew
-  },
-  {
-    ...pageNameNew
-  },
-  {
-    ...pageNameNew
+    ...page_NoticiaCazares
   },
 ];

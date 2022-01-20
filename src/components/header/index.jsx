@@ -30,7 +30,7 @@ export const RowHeader = () => {
           </li>
 
           <li>
-            <a title="Facebook" target="_blank" className="links-menu" href="https://www" rel="noreferrer">
+            <a title="Facebook" target="_blank" className="links-menu" href="https://www.facebook.com/SportNet-News/" rel="noreferrer">
               <span className="icons">
                 <BsFacebook />
               </span>

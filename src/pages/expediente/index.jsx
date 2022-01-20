@@ -18,12 +18,12 @@ export const Expediente = () => {
           <div className="box-img-infos">
             <img className="perfil-leo" src={perfilLeo} alt="perfil Léorion Lucena" />
             <strong>Léorion Lucena</strong>
-            <span>Escritor /  Cronista / Desenvolvedor</span>
+            <span>Cronista /  Jornalista / Desenvolvedor</span>
             <div className="redes-sociais">
               <a style={{color: "#1778F2"}} href="www" className="links-icons" rel="noreferrer" title="facebook" target="_blank">
                 <BsFacebook />
               </a>
-              <a style={{color: "#f00d75"}} href="www" className="links-icons" rel="noreferrer" title="instagram" target="_blank">
+              <a style={{color: "#f00d75"}} href="https://www.instagram.com/leorion_traderfx/" className="links-icons" rel="noreferrer" title="instagram" target="_blank">
                 <BsInstagram />
               </a>
             </div>
@@ -36,7 +36,7 @@ export const Expediente = () => {
             <strong>Rafael Santos</strong>
             <span>Devenvolvedor / ReactJS / NodeJS</span>
             <div className="redes-sociais">
-              <a style={{color: "#f00d75"}} href="www" className="links-icons" rel="noreferrer" title="instagram" target="_blank">
+              <a style={{color: "#f00d75"}} href="https://www.instagram.com/rafaelrdscoding/" className="links-icons" rel="noreferrer" title="instagram" target="_blank">
                 <BsInstagram />
               </a>
               <a style={{color: "#000000"}} href="https://github.com/Rafael-Santos-Dv/" className="links-icons" rel="noreferrer" title="github" target="_blank">

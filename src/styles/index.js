@@ -321,7 +321,7 @@ export const SectionGrid = styled.section`
         width: 50%;
         max-width: 325px;
         height: 300px;
-        border: 1px solid blue;
+        background-color: #fff;
 
       }
 
@@ -424,9 +424,8 @@ export const SectionGrid = styled.section`
 
         > div.container-redes-anunc {
           width: 100%;
-          border: 1px solid red;
           height: 300px;
-
+          background-color: #fff;
         }
         > div.container-redes-sociais {
           width: 100%;

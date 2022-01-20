@@ -34,6 +34,9 @@ export const Div = styled.div`
           height: 70px;
           border-radius: 50%;
           background-color: #fff;
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: 0% 20%;
 
         }
       }
@@ -100,6 +103,21 @@ export const Div = styled.div`
         justify-content: center;
         display: flex;
 
+        > div.container-imagem {
+          width: 100%;
+          padding-bottom: 10px;
+
+          > img {
+            width: 100%;
+            background-color: #fff;
+          }
+          > span {
+            text-transform: uppercase;
+            padding: 20px;
+
+          }
+        }
+
       }
 
     > section.artigos-relacionados {
@@ -143,7 +161,7 @@ export const Div = styled.div`
       > div.container-anuncio {
         width: 100%;
         height: 200px;
-        border: 1px solid blue;
+        background-color: #fff;
         position: sticky;
         top: 0;
       }
