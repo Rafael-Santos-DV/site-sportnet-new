@@ -18,7 +18,7 @@ export const Noticias = () => {
       <aside className="container-anunc">
         <div >
           <ins
-            class="adsbygoogle teste"
+            class="adsbygoogle"
             style={{display: "block"}}
             data-ad-format="fluid"
             data-ad-layout-key="-7k+ex-1g-2s+as"
