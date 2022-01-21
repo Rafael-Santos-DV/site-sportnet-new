@@ -27,7 +27,7 @@ export const UltimasNoticias = () => {
           </div>
           <h3>Siga a <em>SportNet</em></h3>
           <div className="container-redes-sociais">
-            <a target="_blank" href="https://www.sportnetnew.com" className="link-target-sociais" rel="noreferrer">
+            <a target="_blank" href="https://www.facebook.com/SportNet-News/" className="link-target-sociais" rel="noreferrer">
               <BsFacebook title="Facebook"/>
             </a>
             <a target="_blank" href="https://www.sportnetnew.com" className="link-target-sociais" rel="noreferrer">

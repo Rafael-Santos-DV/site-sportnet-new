@@ -1,5 +1,7 @@
 export const Contato = () => {
   return(
-    <p>Página de contato</p>
+    <div className="">
+      página não encontrada!
+    </div>
   )
 };
