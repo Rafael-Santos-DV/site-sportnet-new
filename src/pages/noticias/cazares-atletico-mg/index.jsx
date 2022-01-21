@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -9,6 +9,7 @@ import { Div } from "../../../styles/article";
 import cazaresAtletico from "../../../assets/cazares-atletico/cazares-atletico.jpg";
 import cazaresFlu from "../../../assets/cazares-atletico/cazares-fluminense.webp";
 import perfilLeo from "../../../assets/dupla-leo-raf/perfil-leorion.jpg";
+
 
 
 // Component com os 3 artigos relacionados
@@ -25,9 +26,13 @@ export const ThreeNotices = () => {
 
 
 export const CazaresAtleFlu = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <Div>
-      <section className="container-artigo">
+      <section id="teste" className="container-artigo">
         <aside className="box-anuncio" style={{width: "100%", height: "200px", border: "1px solid #fff"}}></aside>
         <article>
           <h1>Cazares exalta trajetória no Atlético ao se despedir do futebol brasileiro</h1>

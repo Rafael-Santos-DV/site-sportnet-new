@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -25,6 +25,10 @@ export const ThreeNotices = () => {
 
 
 export const ContratoPertoDoFim = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <Div>
       <section className="container-artigo">

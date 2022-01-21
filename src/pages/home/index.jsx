@@ -6,16 +6,17 @@ import { Footer, GlobalStyle, Header } from "../../styles";
 import { Rotas } from "./rotas";
 
 export const Home = () => {
+
     return(
-          <BrowserRouter>
-            <GlobalStyle />
-            <Header>
-              <RowHeader />
-            </Header>
-              <Rotas />
-            <Footer>
-              <ContainerFooter />
-            </Footer>
-          </BrowserRouter>
+      <BrowserRouter>
+        <GlobalStyle />
+        <Header>
+          <RowHeader />
+        </Header>
+          <Rotas />
+        <Footer>
+          <ContainerFooter />
+        </Footer>
+      </BrowserRouter>
     );
 }

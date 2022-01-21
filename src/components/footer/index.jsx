@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/sport-net-logo/logo-web-site.png";
 
 export const ContainerFooter = () => {
+
   return(
     <div className="container-footer">
       <div className="box-img">

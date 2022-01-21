@@ -2,8 +2,13 @@ import { Div } from "../../styles/style-expediente";
 import perfilLeo from "../../assets/dupla-leo-raf/perfil-leorion.jpg";
 import perfilRaf from "../../assets/dupla-leo-raf/perfil-rafael.jpg";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
+import { useEffect } from "react";
 
 export const Expediente = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <Div className="container-expediente">
       <div className="title-container">

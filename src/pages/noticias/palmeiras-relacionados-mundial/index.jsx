@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -25,6 +25,10 @@ export const ThreeNotices = () => {
 
 
 export const ListaRelacionadosPalmeiras = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <Div>
       <section className="container-artigo">
@@ -66,7 +70,8 @@ export const ListaRelacionadosPalmeiras = () => {
         </div>
         <main className="content-principal">
           <article className="article-texto">
-            <p>Estrangeiro com o maior número de jogos pelo Atlético, Cazares vai deixar o futebol brasileiro após seis anos. O meia equatoriano está de saída do Fluminense para defender o Metalist, da Ucrânia.</p>
+            <p>Weverton, Vinicius Silvestre e Marcelo Lomba estão garantidos diante do regulamento que obriga a equipe a ter três goleiros.</p>
+            <p>Os jogadores de linha na final da Copa Libertadores, também, não devem entrar no corte - Mayke, Luan, Gustavo Gómez, Piquerez, Danilo, Zé Rafael, Gustavo Scarpa, Raphael Veiga, Dudu e Rony.</p>
           </article>
           <article className="article-img-post">
             <div className="container-imagem">
@@ -76,10 +81,9 @@ export const ListaRelacionadosPalmeiras = () => {
             <div className="container-post"></div>
           </article>
           <article className="article-texto">
-            <p>Weverton, Vinicius Silvestre e Marcelo Lomba estão garantidos diante do regulamento que obriga a equipe a ter três goleiros.</p>
-            <p>Os jogadores de linha na final da Copa Libertadores, também, não devem entrar no corte - Mayke, Luan, Gustavo Gómez, Piquerez, Danilo, Zé Rafael, Gustavo Scarpa, Raphael Veiga, Dudu e Rony.</p>
+
             <p>Restariam, portanto, dez vagas para 14 nomes: Marcos Rocha, Renan, Murilo, Kuscevic, Patrick de Paula, Jailson, Jorge, Deyverson, Wesley, Breno Lopes, Atuesta, Gabriel Menino, Gabriel Veron e Rafael Navarro. Deste grupo há nomes que jogaram com frequência em 2021 e são importantes para Abel, como Rocha, Patrick, Deyverson e Wesley.</p>
-            <p>O meia é o segundo maior artilheiro estrangeiro da história do Galo, atrás apenas do atacante argentino Lucas Pratto, que tem 42 gols. Pelo alvinegro, Cazares conquistou o Campeonato Mineiro de 2017 e foi vice-campeão da Copa do Brasil no ano seguinte.Durante a preparação para a temporada, Abel Ferreira tem comandado frequentes jogos-treino para avaliar o elenco. Já ocorreram quatro até aqui, contra Pouso Alegre-MG, Portuguesa, Juventus e Primavera.
+            <p>
             Nesta quarta está previsto um novo trabalho assim, mas desta vez entre duas equipes formadas pelo próprio elenco do Palmeiras. O Verdão fará sua estreia na temporada na véspera do fechamento da lista para o Mundial, domingo, dia 23, contra o Novorizontino, pelo Campeonato Paulista.</p>
             <strong>Veja a pré-lista do Palmeiras e os números para o Mundial de Clubes:</strong>
              <ol>
