@@ -23,7 +23,17 @@ export const UltimasNoticias = () => {
       <aside className="column-side">
         <div className="box-anunc-redes-sociais">
           <div className="container-redes-anunc">
-            anuncio
+
+            <ins
+              class="adsbygoogle"
+              style={{display: "block;", textAlign: "center"}}
+              data-ad-layout="in-article"
+              data-ad-format="fluid"
+              data-ad-client="ca-pub-7901381333117251"
+              data-ad-slot="3307373396"
+            >
+            </ins>
+
           </div>
           <h3>Siga a <em>SportNet</em></h3>
           <div className="container-redes-sociais">
