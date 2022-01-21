@@ -155,7 +155,6 @@ export const MainGrid = styled.main`
   > aside.container-anunc {
     background-color: #fff;
     padding: 50px;
-    border: 1px solid rgba(0, 0, 0, .1);
 
     @media only screen and (max-width: 768px) {
       grid-column: 1 / span 3;
@@ -424,7 +423,10 @@ export const SectionGrid = styled.section`
 
         > div.container-redes-anunc {
           width: 100%;
-          height: 300px;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           background-color: #fff;
         }
         > div.container-redes-sociais {

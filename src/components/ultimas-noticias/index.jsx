@@ -23,7 +23,6 @@ export const UltimasNoticias = () => {
       <aside className="column-side">
         <div className="box-anunc-redes-sociais">
           <div className="container-redes-anunc">
-
             <ins
               class="adsbygoogle"
               style={{display: "block;", textAlign: "center"}}
@@ -33,7 +32,6 @@ export const UltimasNoticias = () => {
               data-ad-slot="3307373396"
             >
             </ins>
-
           </div>
           <h3>Siga a <em>SportNet</em></h3>
           <div className="container-redes-sociais">
