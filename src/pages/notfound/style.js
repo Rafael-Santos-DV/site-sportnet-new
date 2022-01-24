@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContainerNotFound = styled.div`
   width: 100%;
+  height: 100vh;
 
   > a >  div {
     width: 100%;
