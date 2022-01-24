@@ -10,7 +10,9 @@ export const RowHeader = () => {
   return(
     <div className="container-header">
       <ButtonMobile />
-      <img src={logo} alt="logo sport-net" />
+      <Link to="/">
+        <img src={logo} alt="logo sport-net" />
+      </Link>
       <nav className="navigation-links">
         <ul className="list-menu">
           <li>

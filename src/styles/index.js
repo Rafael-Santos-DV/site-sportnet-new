@@ -29,7 +29,7 @@ export const Header = styled.header`
     align-items: center;
     padding: 20px 100px;
 
-    > img {
+    > a > img {
       width: 180px;
     }
 
@@ -514,7 +514,7 @@ export const Footer = styled.footer`
       > p {
         padding: 10px 0;
       }
-      > img {
+      > a > img {
         width: 100%;
       }
     }

@@ -6,7 +6,9 @@ export const ContainerFooter = () => {
   return(
     <div className="container-footer">
       <div className="box-img">
-        <img alt="logo sportnet" src={logo} />
+        <Link to="/">
+          <img src={logo} alt="logo sport-net" />
+        </Link>
         <p> <a className="links" rel="noreferrer" target="_blank" href="https://sportnetnew.com">sportnetnew.com</a>, o site com as melhores notícias do Brasileirão!</p>
       </div>
       <div className="container-sportnet">
