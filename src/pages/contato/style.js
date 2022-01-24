@@ -74,8 +74,10 @@ export const DivContato = styled.div`
     }
 
     @media only screen and (max-width: 768px) {
+      text-align: center;
       h1 {
-        font-size: 4.4vw;
+        font-size: clamp(3.3vw, 18px, 4.4vw);
+        padding-bottom: 5px;
       }
 
       > div.box-contato {
