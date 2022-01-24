@@ -50,19 +50,19 @@ export const CazaresAtleFlu = () => {
       <section className="container-principal">
         <div className="box-redes-sociais">
           <div>
-            <a title="Facebook" target="_blank" className="links-redes" href="https://www" rel="noreferrer">
+          <a title="Facebook" target="_blank" className="links-redes" href="https://www.facebook.com/SportNet-News-100950125833333/" rel="noreferrer">
               <span className="icons">
                 <BsFacebook />
               </span>
             </a>
 
-            <a title="Instagram" target="_blank" className="links-redes" href="https://www" rel="noreferrer">
+            <a title="Instagram" target="_blank" className="links-redes" href="/" rel="noreferrer">
               <span className="icons instagram">
                 <AiOutlineInstagram />
               </span>
             </a>
 
-            <a title="Whatsapp" target="_blank" className="links-redes" href="https://www" rel="noreferrer">
+            <a title="Whatsapp" target="_blank" className="links-redes" href="https://wa.me/message/DIEEQ3YFWEGJL1" rel="noreferrer">
               <span className="icons">
                 <BsWhatsapp />
               </span>

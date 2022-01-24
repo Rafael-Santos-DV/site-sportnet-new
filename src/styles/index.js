@@ -48,21 +48,23 @@ export const Header = styled.header`
         transition: flex-direction 200ms;
         align-items: center;
 
-        > li > .links-menu {
-          color: #03E338;
-          transition: 500ms;
+        > li {
+          > .links-menu {
+            color: #03E338;
+            transition: 500ms;
 
-          > .icons {
-            font-size: 20px;
+            > .icons {
+              font-size: 20px;
 
-          }
+            }
 
-          > .instagram {
-            font-size: 22px;
-          }
+            > .instagram {
+              font-size: 22px;
+            }
 
-          &:hover {
-            border-bottom: 1px solid black;
+            &:hover {
+              border-bottom: 1px solid black;
+            }
           }
         }
       }

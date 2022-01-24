@@ -18,7 +18,6 @@ export const RowHeader = () => {
               Notícias
             </Link>
           </li>
-
           <li>
             <Link title="Expediente" className="links-menu" to="expediente">
               Expediente
@@ -31,21 +30,21 @@ export const RowHeader = () => {
           </li>
 
           <li>
-            <a title="Facebook" target="_blank" className="links-menu" href="https://www.facebook.com/SportNet-News/" rel="noreferrer">
+            <a style={{color: "#fff"}}title="Facebook" target="_blank" className="links-menu link-target-sociais" href="https://www.facebook.com/SportNet-News-100950125833333/" rel="noreferrer">
               <span className="icons">
                 <BsFacebook />
               </span>
             </a>
           </li>
           <li>
-            <a title="Instagram" target="_blank" className="links-menu" href="https://www" rel="noreferrer">
+            <a style={{color: "#f00d75"}} title="Instagram" target="_blank" className="links-menu link-target-sociais" href="https://www.sportnetnew.com/" rel="noreferrer">
               <span className="icons instagram">
                 <AiOutlineInstagram />
               </span>
             </a>
           </li>
           <li>
-            <a title="Whatsapp" target="_blank" className="links-menu" href="https://www" rel="noreferrer">
+            <a style={{color: "#25D366"}} title="Whatsapp" target="_blank" className="links-menu link-target-sociais" href="https://wa.me/message/DIEEQ3YFWEGJL1" rel="noreferrer">
               <span className="icons">
                 <BsWhatsapp />
               </span>
