@@ -12,7 +12,6 @@ export const GlobalStyle = createGlobalStyle`
 
   html, body {
     background-color: #f2f5f3;
-    height: 100vh;
 
   }
 `;

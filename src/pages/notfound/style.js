@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 export const ContainerNotFound = styled.div`
   width: 100%;
-
+  height: 80vh;
+  max-height: 768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   > a >  div {
     width: 100%;
