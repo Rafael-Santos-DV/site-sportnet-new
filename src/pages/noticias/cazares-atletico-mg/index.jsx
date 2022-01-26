@@ -33,7 +33,7 @@ export const CazaresAtleFlu = () => {
   return(
     <Div>
       <section id="teste" className="container-artigo">
-        <aside className="box-anuncio" style={{width: "100%", height: "200px", border: "1px solid #fff"}}></aside>
+        <aside className="box-anuncio"></aside>
         <article>
           <h1>Cazares exalta trajetória no Atlético ao se despedir do futebol brasileiro</h1>
           <div className="escritor-artigo">

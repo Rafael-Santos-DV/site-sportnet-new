@@ -110,6 +110,9 @@ export const Div = styled.div`
           > img {
             width: 100%;
             background-color: #fff;
+            /* @media only screen and (max-width: 868px) {
+              max-height: 450px;
+            } */
           }
           > span {
             text-transform: uppercase;

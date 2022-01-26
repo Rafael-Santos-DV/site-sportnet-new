@@ -32,7 +32,7 @@ export const ContratoPertoDoFim = () => {
   return(
     <Div>
       <section className="container-artigo">
-        <aside className="box-anuncio" style={{width: "100%", height: "200px", border: "1px solid #fff"}}></aside>
+        <aside className="box-anuncio"></aside>
         <article>
           <h1>Contrato perto do fim, fase do United e vontade do jogador: os argumentos do Flamengo para baratear Andreas</h1>
           <div className="escritor-artigo">

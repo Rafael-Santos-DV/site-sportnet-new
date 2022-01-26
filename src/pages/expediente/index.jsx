@@ -51,8 +51,7 @@ export const Expediente = () => {
           </div>
         </div>
       </div>
-      <aside className="box-anuncio" style={{maxWidth: "1200px", margin: "0 auto", border: "1px solid red", height: "200px"}}>
-        anuncio
+      <aside className="box-anuncio">
       </aside>
     </Div>
   )
