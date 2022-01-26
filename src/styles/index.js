@@ -156,7 +156,7 @@ export const MainGrid = styled.main`
 
   > aside.container-anunc {
 
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255);
 
     @media only screen and (max-width: 768px) {
       grid-column: 1 / span 3;
