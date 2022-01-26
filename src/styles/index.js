@@ -362,11 +362,14 @@ export const SectionGrid = styled.section`
 
             > h1 {
               font-size: 16px;
-              transition: color 500ms;
+              /* transition: color 500ms;
+              @media only screen and (max-width: 460px) {
+                font-size: 2vw;
+              } */
             }
             @media only screen and (max-width: 368px) {
               > h1 {
-                font-size: 4vw;
+                font-size: 2vw;
               }
             }
           }
@@ -407,6 +410,12 @@ export const SectionGrid = styled.section`
 
               > div.box-info-img {
                 width: 65%;
+
+                > h1 {
+                  @media only screen and (max-width: 460px) {
+                    font-size: 3.5vw;
+                  }
+                }
               }
           }
         }
