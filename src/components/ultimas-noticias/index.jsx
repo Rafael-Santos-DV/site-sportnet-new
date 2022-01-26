@@ -12,8 +12,7 @@ export const UltimasNoticias = () => {
           <h2>Últimas notícias</h2>
         </div>
         <article className="container-noticias">
-          <aside className="box-anuncio" style={{order: 1}}>
-
+          <aside className="box-anuncio" style={{order: 1, display: "none"}}>
           </aside>
             <DinamicNews />
           <aside className="box-anuncio" style={{order: 5}}>

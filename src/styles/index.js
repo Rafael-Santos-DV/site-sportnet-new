@@ -314,32 +314,37 @@ export const SectionGrid = styled.section`
       gap: 20px;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: center;
+      padding: 20px;
 
-
+      @media only screen and (max-width: 600px)
+      {
+        padding: 0;
+      }
       > aside.box-anuncio {
         width: 50%;
-        max-width: 325px;
-        height: 300px;
-        background-color: #fff;
-        display: none;
+
       }
 
       > div.box-noticia {
-        width: 50%;
+        width: 45%;
         max-width: 325px;
+        height: 300px;
         box-shadow: 1px 1px 5px #eee,
         -1px -1px 5px #eee;
         overflow: hidden;
         background-color: #fff;
 
+
         > .router-notic {
+          width: 100%;
+          height: 100%;
           color: #000000;
           display: flex;
           flex-direction: column;
 
           > img {
             width: 100%;
+            height: 65%;
             background-color: #fff;
             transition: transform 200ms linear;
 
@@ -385,12 +390,19 @@ export const SectionGrid = styled.section`
         > div.box-noticia {
           width: 100%;
           max-width: 600px;
+          max-height: 100px;
+
+          @media only screen and (max-width: 600px) {
+            max-width: 100%;
+
+          }
 
           > .router-notic {
               flex-direction: row;
 
               > img {
                 width: 35%;
+                height: 100%;
               }
 
               > div.box-info-img {

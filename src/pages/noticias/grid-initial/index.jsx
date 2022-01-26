@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { GoogleAds } from "../../../components/googleads";
+import { Anuncio1 } from "../../../components/gooleadsAnuncios";
 import { NoticiasAntigas } from "../../../components/noticias-antigas";
 import { ultimasNoticias } from "../../../json/ultimas-noticias";
 
@@ -18,7 +19,9 @@ export const Noticias = () => {
       </article>
       <aside className="container-anunc">
         <div >
-          <GoogleAds />
+          <GoogleAds>
+            <Anuncio1 />
+          </GoogleAds>
         </div>
       </aside>
 
