@@ -165,6 +165,7 @@ export const Div = styled.div`
         width: 100%;
         height: 200px;
         background-color: #fff;
+        opacity: .1;
         position: sticky;
         top: 0;
       }

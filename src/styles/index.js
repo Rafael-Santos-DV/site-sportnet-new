@@ -77,7 +77,7 @@ export const Header = styled.header`
         padding-top: 10px;
       }
     }
-    @media only screen and (max-width: 368px) {
+    @media only screen and (max-width: 480px) {
       div.button-icon-mobile {
         display: block;
       }
@@ -155,8 +155,8 @@ export const MainGrid = styled.main`
   }
 
   > aside.container-anunc {
-    background-color: #fff;
-    padding: 50px;
+
+    background-color: rgba(255, 255, 255, .1);
 
     @media only screen and (max-width: 768px) {
       grid-column: 1 / span 3;
@@ -225,6 +225,7 @@ export const MainGrid = styled.main`
         width: 100%;
         max-width: 500px;
 
+
         > .router-notic {
           flex-direction: row;
 
@@ -246,8 +247,11 @@ export const MenuMobile = styled.div`
     display: flex;
     align-items: center;
     padding: 14px 10px;
+    @media only screen and (max-width: 420px) {
+      padding-top: 21px;
+    }
 
-    @media only screen and (max-width: 368px) {
+    @media only screen and (max-width: 480px) {
       ${
         props => props.permi ?
         css`
@@ -323,7 +327,7 @@ export const SectionGrid = styled.section`
         max-width: 325px;
         height: 300px;
         background-color: #fff;
-
+        display: none;
       }
 
       > div.box-noticia {
@@ -478,6 +482,8 @@ export const SectionGrid = styled.section`
         grid-column: 1 / span 2;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        max-height: 200px;
 
         > div.box-anunc-redes-socias {
           position: static;
