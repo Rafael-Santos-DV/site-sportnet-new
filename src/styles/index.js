@@ -81,7 +81,7 @@ export const Header = styled.header`
       div.button-icon-mobile {
         display: block;
       }
-      > img {
+      > a > img {
         width: 40vw;
       }
 
@@ -247,9 +247,7 @@ export const MenuMobile = styled.div`
     display: flex;
     align-items: center;
     padding: 14px 10px;
-    @media only screen and (max-width: 420px) {
-      padding-top: 21px;
-    }
+
 
     @media only screen and (max-width: 480px) {
       ${
