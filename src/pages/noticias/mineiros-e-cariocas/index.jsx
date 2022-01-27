@@ -43,7 +43,7 @@ export const MineirosECariocas = () => {
             <span>Por Lérion Lucena <br/>19:30 AM GMT-3</span>
           </div>
           <div className="box-thumb">
-            <img src={imagem1} alt="imagem Estádio Murumbi" />
+            <img src={imagem1} alt="imagem Galo" />
             <strong>Foto: Twitter/Atlético-MG</strong>
           </div>
 
