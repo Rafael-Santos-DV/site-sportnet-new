@@ -150,9 +150,13 @@ export const Div = styled.div`
 
           > img {
             width: 35%;
+
           }
           > h4 {
             padding: 10px;
+            @media only screen and (max-width: 420px) {
+              font-size: 3vw;
+            }
           }
           &:hover {
             color: #03E338;
