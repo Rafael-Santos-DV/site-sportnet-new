@@ -18,10 +18,10 @@ export const ultimasNoticias = [
     ...page_BrunoMarquesSantosArouca
   },
   {
-    ...page_CorinthiansSilvinho
+    ...page_RelacionadosPalmeiras
   },
   {
-    ...page_RelacionadosPalmeiras
+    ...page_CorinthiansSilvinho
   },
   {
     ...page_contrato_perto_do_fim

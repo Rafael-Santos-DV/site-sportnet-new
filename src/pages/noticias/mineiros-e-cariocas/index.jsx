@@ -117,6 +117,7 @@ export const MineirosECariocas = () => {
 }
 
 // Sempre mude o nome da constante abaixo
+
 export const page_MineirosECariocas = {
   rota: "mineiros-e-cariocas",
   thumb: imagem1,
