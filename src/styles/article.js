@@ -97,6 +97,8 @@ export const Div = styled.div`
         flex-direction: column;
         font-size: 20px;
         font-weight: 100;
+        text-align: justify !important;
+
       }
       > article.article-img-post {
         width: 100%;
@@ -186,9 +188,11 @@ export const Div = styled.div`
       > main.content-principal {
         grid-column: 1 / span 3;
 
+
         > article.article-texto {
           padding: 10px 10px;
           font-size: clamp(16px, 20px, 2.2vw);
+
         }
 
       }
