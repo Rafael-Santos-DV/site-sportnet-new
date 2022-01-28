@@ -15,7 +15,7 @@ export const Contato = () => {
           </div>
           <div className="box--dices">
             <h2>Contato</h2>
-            <span>(93) 999999999</span>
+            <span>(93) 99135-6663</span>
             <span>sportnetnew@gmail.com</span>
           </div>
           <div className="redes--sociais">
