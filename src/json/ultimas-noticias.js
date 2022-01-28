@@ -3,6 +3,7 @@ import { page_contrato_perto_do_fim } from "../pages/noticias/contrato-perto-do-
 import { page_CorinthiansSilvinho } from "../pages/noticias/corinthians-silvinho";
 import { page_Fla_Compra_Marinho } from "../pages/noticias/fla-marinho-reforco";
 import { page_flamengo_E_SantosMarinho } from "../pages/noticias/flamengo-marinho";
+import { page_FlaVendaDeMichael } from "../pages/noticias/flamengo-vende-micha";
 import { page_MineirosECariocas } from "../pages/noticias/mineiros-e-cariocas";
 import { page_RelacionadosPalmeiras } from "../pages/noticias/palmeiras-relacionados-mundial";
 import { page_BrunoMarquesSantosArouca } from "../pages/noticias/santos-arouca";
@@ -12,6 +13,9 @@ import { page_SantosFpf } from "../pages/noticias/sao-paulo-fpf";
 export const ultimasNoticias = [
   {
     ...page_Fla_Compra_Marinho
+  },
+  {
+    ...page_FlaVendaDeMichael
   },
   {
     ...page_flamengo_E_SantosMarinho

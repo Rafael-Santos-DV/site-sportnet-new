@@ -5,7 +5,7 @@ import { ultimasNoticias } from "../../json/ultimas-noticias";
 export const DinamicNews = () => {
   let orderStyle = 1;
   return(
-    ultimasNoticias.slice(1, 7).map((item, i) => {
+    ultimasNoticias.slice(1, 8).map((item, i) => {
       orderStyle++;
       if (orderStyle === 5) {
         orderStyle = 6;
