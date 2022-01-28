@@ -18,7 +18,7 @@ export const Noticias = () => {
         </Link>
       </article>
       <aside className="container-anunc">
-        <div >
+        <div className="googleads-cont">
           <GoogleAds>
             <Anuncio1 />
           </GoogleAds>

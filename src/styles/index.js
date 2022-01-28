@@ -158,6 +158,9 @@ export const MainGrid = styled.main`
     @media only screen and (max-width: 768px) {
       grid-column: 1 / span 3;
     }
+    & .adsbygoogle[data-ad-status="unfilled"]{
+      display: none !important;
+    }
   }
 
   > section.noticias-recentes {
